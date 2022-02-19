@@ -9,7 +9,17 @@ void method(double a, double b, double eps);
 
 int main()
 {
+    double a,b,eps;
 
+    printf("\n------------------------------------------\n");
+    printf("Function:= x^2 - e^x\n\n");
+    printf("Enter the interval a: ");scanf("%lf",&a);
+    printf("Enter the interval b: ");scanf("%lf",&b);
+    printf("Enter the tolerance : ");scanf("%lf",&eps);
+    printf("------------------------------------------\n");
+    method(a,b,eps);
+
+    return 0;
 }
 
 /* Function definitions*/
