@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
+/* Function declarations*/
 
+double func(double x);
+int fib(int n);
+void method(double a, double b, double eps);
 
 int main()
 {
